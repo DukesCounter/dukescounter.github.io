@@ -36,6 +36,7 @@
 
 <body>
 <div class="preloader"> <img src="img/loader.gif" alt="Preloader image"> </div>
+
 <header id="intro" style="">
   <div class="container">
     <div class="table">
@@ -67,6 +68,20 @@
   </div>
 </header>
 
+<script type="text/javascript" src="https://raw.github.com/stevenschobert/instafeed.js/master/instafeed.min.js"></script>
+
+  
+<section>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '2860723523',
+        clientId: '2032dc4578ba4ea8b7323206008c8d5e'
+    });
+    feed.run();
+</script>
+</section>
+  
 <!-- Holder for mobile navigation -->
 <!-- Scripts --> 
 <script src="js/jquery-1.11.1.min.js"></script> 
